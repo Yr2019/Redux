@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(180deg, #0837B0 0%, #021E66 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+  padding-top: 180px;
+}
+.counter {
+  width: 300px;
+  margin: 0 auto;
+}
+.counter__block {
+  padding: 60px;
+  height: 284px;
+  background: #FFFFFF;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.counter__digit {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 150px;
+  line-height: 176px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.counter__navigation {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.counter__button {
+  width: 65px;
+  height: 62px;
+  border-radius: 4px;
+  margin: 0 15px 30px;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+.counter__button img {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+.counter__button_plus {
+  background: #089C20;
+}
+.counter__button_minus {
+  background: #E7AA10;
+} 
+.counter__button_minus img {
+  margin-top: -5px;
+}
+.counter__button_reset {
+  background: #CF1C1C;
+}
+.counter__button_download {
+  background: #30D9CF;
+}
+.counter__button_upload {
+  background: #9B0F9E;
+}
